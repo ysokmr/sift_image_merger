@@ -1,0 +1,8 @@
+Width1 : 600
+Height1 : 450
+Width2 : 600
+Height2 : 450
+X-Offset : 360.6
+Y-Offset : 154.3
+Angle : -3.3
+Ratio : 1.32

@@ -1,0 +1,8 @@
+Width1 : 640
+Height1 : 480
+Width2 : 640
+Height2 : 480
+X-Offset : 213.9
+Y-Offset : -66.4
+Angle : 9.5
+Ratio : 1.0

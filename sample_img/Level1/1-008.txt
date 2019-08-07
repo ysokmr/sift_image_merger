@@ -1,0 +1,8 @@
+Width1 : 160
+Height1 : 120
+Width2 : 160
+Height2 : 120
+X-Offset : 138.1
+Y-Offset : -5.3
+Angle : 0.0
+Ratio : 1.0

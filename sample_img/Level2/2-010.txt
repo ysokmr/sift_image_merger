@@ -1,0 +1,8 @@
+Width1 : 480
+Height1 : 320
+Width2 : 480
+Height2 : 320
+X-Offset : 425.4
+Y-Offset : -21.5
+Angle : 5.5
+Ratio : 1.0

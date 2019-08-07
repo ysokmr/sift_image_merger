@@ -1,0 +1,6 @@
+X-Offset : 258
+Y-Offset : -10
+Angle : 0.0
+Ratio : 1.0
+SIFT time : 9.118238900000051
+total time : 9.622370000000046
