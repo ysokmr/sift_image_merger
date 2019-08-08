@@ -13,9 +13,13 @@ lv = input('Level: ')
 num = input('num: ')
 
 target = './sample_img/Level{0}/{0}-{1}'.format(lv, num)
-
-im1 = Image.open(target + '-1.ppm')
-im2 = Image.open(target + '-2.ppm')
+if lv == 'my':
+    target = './myimage/{}'.format(num)
+    im1 = Image.open(target + '-1.jpg')
+    im2 = Image.open(target + '-2.jpg')
+else:
+    im1 = Image.open(target + '-1.ppm')
+    im2 = Image.open(target + '-2.ppm')
 
 t1 = time.perf_counter()
 
@@ -46,7 +50,11 @@ print('result: ({0}, {1}, {2}, {3})'.format(result[1][0], result[1][1], result[2
 print('total time: ' + str(t3 - t1))
 
 result_file = './result_img/Level{0}/{0}-{1}'.format(lv, num)
-result[0].save(result_file + '.ppm')
+if lv == 'my':
+    result_file = './myimage/{}'.format(num)
+    result[0].save(result_file + '.jpg')
+else:
+    result[0].save(result_file + '.ppm')
 with open(result_file + '.txt', 'w') as f:
     f.write(res_txt)
 
